@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    width: 40%;
+    margin:auto;
+    border: black solid 5px;
+    border-radius: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row{
+    margin: 40px;
+    margin-left: 150px;
+    width: 85%;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 450px;
+  }
+.column img{
+    width: 100%;
+    height: 100%;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.text-normal{
+    text-align: center;
+    font-family: Georgia, serif;
+}
+.text-header{
+    text-align: center;
+    font-family: fantasy;
+}
+.blue-sphere{
+    border: rgb(90, 195, 226) solid 10px;
+    border-radius: 50px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.skills-box{
+    background-color: rgb(115, 137, 161);
+    float:right;
+}
+
+
+
