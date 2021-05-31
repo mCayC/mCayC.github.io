@@ -42,6 +42,8 @@ body{
 .column img{
     width: 100%;
     height: 100%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 .row:after {
 content: "";
@@ -55,6 +57,12 @@ clear: both;
 .text-header{
     text-align: center;
     font-family: fantasy;
+    font-size: 50px;
+}
+.text-subheader{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30;
 }
 .text-about{
     text-align: left;
