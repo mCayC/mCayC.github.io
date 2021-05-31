@@ -50,6 +50,23 @@ content: "";
 display: table;
 clear: both;
 }
+.button{
+    width: 20%;
+    height: 50px;
+    background: rgba(50, 207, 235, 0.884);
+    color: black;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.button:hover{
+    background: rgba(37, 163, 185, 0.884);;
+}
 .text-normal{
     text-align: center;
     font-family: Georgia, serif;
