@@ -1,23 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link 
-            rel="stylesheet" type="text/css" href="index.css" 
-        />
-        <title>MCayC's site</title>
+        <link rel="stylesheet" href="index.css">
+        <title>Title</title>
     </head>
     <body>
-        <div class="home">
-            <div class="home-intro">
+        <div class="main">
+            <div class="main-title">
                 <h1 class="title">MCayC</h1>
                 <h2> Programmer [ Web / Windows App / Game ]</h2>
             </div>
-            <br>
-            </div>
-            <div class="row">
-                <div class="about-box">
-                    <h2 class="subtitle">
+            </br>
+            <div class="about">
+                <div class="test">
+                    <h2>
                         About me
                     </h2>
                     <p>
@@ -25,12 +23,12 @@
                         First is learning new stuff and then practicing the new skills to a higher level.
                         I don't know what else to write here so you can check out the rest of the page!
                     </p>
-                </div>
-                <div class="skills-box">
-                    <h2 class="subtitle">
+                </div>  
+                <div class="test">
+                    <h2>
                         My skills
                     </h2>
-                    <table class=skills-table>
+                    <table class="skills-table">
                         <tr>
                             <th>Languages</th>
                             <td>C#, F#, Python, HTML, JSS, JavaScript, TypeScript, SQL</td>
@@ -44,81 +42,63 @@
                             <td>Visual Studio/Code, PostgreSQL</td>
                         </tr>
                     </table>
-                </div>
+                </div>       
+            </div>         
+        </div>
+        <div class="projects">
+            <h2>Take a look at my recent projects.</h2>
+            <!-- Project D-->
+            <div class="project">
+                <h2>Unity game</h2>
+                <h4>School project | team of 5</h4>
+                <img src="img/projectD.png" alt="image not found sorry"></img>
+                <p>
+                    A game made in Unity with the goal of having a digital room for talking to members.
+                    The game uses Photon for server hosting and has become a great source of learning for me.
+                    Started this project knowing nothing about Unity, watched some tutorials, practiced and went to work.
+                    Proud of the skills I've gathered till now. My job was taking care of the main menu and the online aspect.
+                    Made with the C# language.
+                </p>
+            </div>
+            <!-- Project C-->
+            <div class="project">
+                <h2>Room-reservation webapplication</h2>
+                <h4>School project | team of 5</h4>
+                <img src="img/projectC.PNG" alt="image not found sorry"></img>
+                <p>
+                    In this application employees can login and view or create reservations for rooms.
+                    Members can reserve a room for themselves or as a team and the admin can customize all made reservations.
+                    I made the admin component, teams creation and the ability to reserve for multiple days at once.
+                    Was really happy with the end result.
+                    Made using .NET Core MVC with C#. Also made use of a sql database.
+                </p>
+                <a href="https://github.com/proteanbean/NGTI" target="_blank" class="project_button">Go to project</a>
+            </div>       
+            <!-- Project B-->
+            <div class="project">
+                <h2>Cinema reservation system</h2>
+                <h4>School project | team of 4</h4>
+                <img src="img/projectB.gif" alt="image not found sorry"></img>
+                <p>
+                    Using this WinForms application customers can see a list of available and coming soon movies and reserve tickets for it.
+                    Reservations are saved in a database. I made the page which displays current and upcoming movies and also added a searchbar.
+                    Made using Windows Forms and C# and sql.
+                </p>
+                <a href="https://github.com/proteanbean/ProjectB" target="_blank" class="project_button">Go to project</a>
+            </div>
+            <!-- Project A-->
+            <div class="project">
+                <h2>Digital manager boardgame</h2>
+                <h4>School project | team of 3</h4>
+                <img src="img/projectA.PNG" alt="image not found sorry"></img>
+                <p>
+                    A manager for stats of our made boardgame.
+                    The app is made using Python and lets you manage the Health of the players and throw a dice.
+                    This was my first teamproject and I can say without a doubt that it's not that great. :(
+                    Made using Processing.py and Python.
+                </p>
             </div>
         </div>
-        <section>
-            <h2 class="subtitle">Take a look at my recent projects.</h1>
-            <!-- Project D-->
-            <div class="row blue-sphere">
-                <div class="column text-normal">
-                    <h2>Unity game</h2>
-                    <h4>School project | team of 5</h4>
-                    <p>
-                        A game made in Unity with the goal of having a digital room for talking to members.
-                        The game uses Photon for server hosting and has become a great source of learning for me.
-                        Started this project knowing nothing about Unity, watched some tutorials, practiced and went to work.
-                        Proud of the skills I've gathered till now. My job was taking care of the main menu and the online aspect.
-                        Made with the C# language.
-                    </p>
-                </div>
-                <div class="column">
-                    <img src="img/projectD.png" alt="image not found sorry"></img>
-                </div>
-                </div>
-                <!-- Project C-->
-                <div class="row blue-sphere">
-                <div class="column text-normal">
-                    <h2>Room-reservation webapplication</h2>
-                    <h4>School project | team of 5</h4>
-                    <p>
-                        In this application employees can login and view or create reservations for rooms.
-                        Members can reserve a room for themselves or as a team and the admin can customize all made reservations.
-                        I made the admin component, teams creation and the ability to reserve for multiple days at once.
-                        Was really happy with the end result.
-                        Made using .NET Core MVC with C#. Also made use of a sql database.
-                    </p>
-                    <a href="https://github.com/proteanbean/NGTI" target="_blank" class="button">Go to project</a>
-                </div>
-                <div class="column">
-                    <img src="img/projectC.PNG" alt="image not found sorry"></img>
-                </div>
-                </div>
-                <!-- Project B-->
-                <div class="row blue-sphere">
-                <div class="column text-normal">
-                    <h2>Cinema reservation system</h2>
-                    <h4>School project | team of 4</h4>
-                    <p>
-                        Using this WinForms application customers can see a list of available and coming soon movies and reserve tickets for it.
-                        Reservations are saved in a database. I made the page which displays current and upcoming movies and also added a searchbar.
-                        Made using Windows Forms and C# and sql.
-                    </p>
-                    <a href="https://github.com/proteanbean/ProjectB" target="_blank" class="button">Go to project</a>
-                </div>
-                <div class="column">
-                    <img src="img/projectB.gif" alt="image not found sorry"></img>
-                </div>
-                </div>
-                <!-- Project A-->
-                <div class="row blue-sphere">
-                <div class="column text-normal">
-                    <h2>Digital manager boardgame</h2>
-                    <h4>School project | team of 3</h4>
-                    <p>
-                        A manager for stats of our made boardgame.
-                        The app is made using Python and lets you manage the Health of the players and throw a dice.
-                        This was my first teamproject and I can say without a doubt that it's not that great. :(
-                        Made using Processing.py and Python.
-                    </p>
-                </div>
-                <div class="column">
-                    <img src="img/projectA.PNG" alt="image not found sorry"></img>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <p>Site under construction. Working on enhancing my html/css skills and adding responsiveness</p>
-        </footer>
+        
     </body>
 </html>

@@ -1,124 +1,97 @@
-*{
-    box-sizing: border-box;
-}
+
 
 body{
-    background-color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.home{
-    padding-top: 60px;
+    font-size: 120%;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.title{
-    text-underline-offset: 10px;
+.main{
+    text-align: center;
+    overflow: auto;
+}
+.main-title{
     letter-spacing: 3px;
-    font-size: 50px;
-}
-.subtitle{
-    text-align: center;
-    font-size: 40px;
-}
-.skills-box{
-    float:right;
-    border-radius: 10px;
-    width: 40%;
-    margin: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 150%;
+    font-size: 130%;
+    
 }
 
+.about{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.test{
+    float:left;
+    width: 40%;
+    
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    .test {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    body{
+        font-size: 100%;
+    }
+}
 .skills-table{
     border-top: rgba(50, 207, 235, 0.884) solid 5px;
-    text-align: left;
+    margin: 0 auto;
 }
 
 .skills-table th{
     border-right: rgba(50, 207, 235, 0.884) solid 5px;
-    font-size: 140%;
 }
 .skills-table td{
     padding-bottom: 10px;
-    font-size: 140%;
 }
 
-.about-box{
-    float: left;
-    width: 40%;
-    margin: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 140%;
+.projects{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
 }
-.row{
-    margin: 40px;
-    margin-left: 150px;
-    width: 85%;
-}
-.column {
+
+.project{
     float: left;
-    width: 50%;
-    padding: 10px;
-    height: 450px;
-    position: relative;
-    font-size: 130%;
-  }
-.column img{
+    margin: 3%;
+    width: 25%;
+    border: rgb(90, 195, 226) solid 5px;
+    border-radius: 50px;
+}
+
+.project img{
     width: 100%;
     height: 100%;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-.button{
-    display: block;
+.project_button{
     width: 30%;
-    height: 50px;
-    position: absolute;
-    bottom: 10%;
-    left: 40%;
-    background: rgba(50, 207, 235, 0.884);
+    margin-bottom: 5px;
+    border: rgb(90, 195, 226) solid 5px;
+    border-radius: 50px;
+    background: rgb(163, 245, 245);
     color: black;
-    padding: 15px;
-    margin: auto;
-    border: rgb(12, 58, 71) solid 1px;
-    border-radius: 30px;
-    text-align: center;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
     line-height: 25px;
 }
-.button:hover{
+.project_button:hover{
     background: rgba(37, 163, 185, 0.884);;
 }
-.text-normal{
-    text-align: center;
-    font-family: Georgia, serif;
+@media (max-width: 1500px){
+    .project{
+        width: 40%;
+    }
 }
-.text-header{
-    text-align: center;
-    font-family: fantasy;
-    font-size: 50px;
+@media (max-width: 1000px){
+    .project{
+        width: 90%;
+    }
 }
-.text-subheader{
-    text-align: center;
-    font-family: fantasy;
-    font-size: 30;
-}
-.text-about{
-    text-align: left;
-    float:left;
-}
-.blue-sphere{
-    border: rgb(90, 195, 226) solid 10px;
-    border-radius: 50px;
-}
-
-
-
